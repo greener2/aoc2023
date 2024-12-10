@@ -1,4 +1,5 @@
 """Advent of Code: 2023 - Run All The Things."""
+
 from __future__ import annotations
 
 import argparse
@@ -208,8 +209,7 @@ def run() -> None:  # noqa: C901
     if args.test:
         # Execute pytest, but only with the days specified
         pytest.main([
-            f"aoc2023/{day}.py" for day in days
-            if os.path.exists(f"aoc2023/{day}.py")
+            f"aoc2023/{day}.py" for day in days if os.path.exists(f"aoc2023/{day}.py")
         ])
         return
 

@@ -26,7 +26,7 @@ bash setup.sh
 
 ... or follow the rest of this README to do it manually. :)
 
-**Note:** *Don't* blindly trust script files; go and look at it first. These are the exact instructions from this `README.md`, but in a single script.
+**Note:** _Don't_ blindly trust script files; go and look at it first. These are the exact instructions from this `README.md`, but in a single script.
 
 ### 2. Initialize the Repository
 
@@ -90,13 +90,13 @@ When it loads, make sure you hit "Reopen in Container" in VSCode (at the bottom-
 
 Yes, you have to do this everytime (but there are some shortcuts, like installing and using the [devcontainer CLI](https://code.visualstudio.com/docs/devcontainers/devcontainer-cli)).
 
-*Note:* After fully loading once, you'll have to reload _again_ to get the profiling tasks to work (using CTRL/CMD+SHIFT+P and selecting "Reload").
+_Note:_ After fully loading once, you'll have to reload _again_ to get the profiling tasks to work (using CTRL/CMD+SHIFT+P and selecting "Reload").
 
 ## Profiling
 
 To execute the Austin-based profiling, press CTRL/CMD+SHIFT+P, select "Run Tasks," and then select an Austin task to execute.
 
-*Note:* If this is your first time executing VSCode + the `devcontainer`, you'll need to reload it before the Austin tasks will work (using CTRL/CMD+SHIFT+P and selecting "Reload").
+_Note:_ If this is your first time executing VSCode + the `devcontainer`, you'll need to reload it before the Austin tasks will work (using CTRL/CMD+SHIFT+P and selecting "Reload").
 
 ## Project Structure
 

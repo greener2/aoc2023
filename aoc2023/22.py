@@ -1,8 +1,8 @@
 """Advent of Code: 2023 - Day 22."""
+
 from __future__ import annotations
 
 from . import utils
-
 
 EXAMPLE = """
 EXAMPLE
@@ -23,7 +23,7 @@ def solve(data: list[str] | None = None) -> tuple[int, int]:
     >>> solve()
     (0, 0)
     """
-    data = read_data(data=data)  # noqa: F841 (delete this)
+    data = read_data(data=data)
     p1, p2 = 0, 0
     return p1, p2
 

@@ -165,4 +165,3 @@ setup.sh
 
 # Because this is an OSS project, let's ignore the input texts so we don't commit them
 aoc2023/aoc2023/input/
-

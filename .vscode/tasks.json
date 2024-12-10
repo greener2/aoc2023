@@ -5,15 +5,7 @@
             "label": "Profile w/ Austin (Current File/Day)",
             "type": "austin",
             "command": ["uv", "run"],
-            "args": [
-                "python",
-                "-m",
-                "aoc2023",
-                "-q",
-                "-s",
-                "-d",
-                "${file}"
-            ],
+            "args": ["python", "-m", "aoc2023", "-q", "-s", "-d", "${file}"],
             "group": "profile",
             "presentation": {
                 "close": true
@@ -56,7 +48,14 @@
             "label": "Profile w/ Austin (Everything Examples)",
             "type": "austin",
             "command": ["uv", "run"],
-            "args": ["python", "-m", "cookiecutter_py_aoc_example", "-q", "-s", "-e"],
+            "args": [
+                "python",
+                "-m",
+                "cookiecutter_py_aoc_example",
+                "-q",
+                "-s",
+                "-e"
+            ],
             "group": "profile",
             "problemMatcher": [],
             "presentation": {
@@ -76,12 +75,7 @@
             "label": "Run Application (Current File/Day)",
             "type": "shell",
             "command": "python",
-            "args": [
-                "-m",
-                "aoc2023",
-                "-d",
-                "${file}"
-            ],
+            "args": ["-m", "aoc2023", "-d", "${file}"],
             "group": "execute",
             "presentation": {
                 "reveal": true,
@@ -92,13 +86,7 @@
             "label": "Run Application (Current File/Day Examples)",
             "type": "shell",
             "command": "python",
-            "args": [
-                "-m",
-                "aoc2023",
-                "-d",
-                "${file}",
-                "-e"
-            ],
+            "args": ["-m", "aoc2023", "-d", "${file}", "-e"],
             "group": "execute",
             "presentation": {
                 "reveal": true,
@@ -109,10 +97,7 @@
             "label": "Run Application (Everything)",
             "type": "shell",
             "command": "python",
-            "args": [
-                "-m",
-                "aoc2023",
-            ],
+            "args": ["-m", "aoc2023"],
             "presentation": {
                 "reveal": true,
                 "panel": "shared"
